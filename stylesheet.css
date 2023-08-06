@@ -1,0 +1,89 @@
+
+/* Calendar CSS: */
+.calendar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.calendar ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.calendar ul li {
+    width: calc(100% / 7);
+    padding-bottom: .5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .monthYear {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.header .monthYear:hover {
+    transform: scale(1.05);
+}
+
+.header .arrows {
+    display: flex;
+}
+
+.header .arrows div {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: .3rem;
+    margin: 3px;
+}
+
+.header .arrows div:hover {
+    transform: scale(1.2);
+}
+
+.daysOfWeek {
+    font-weight: 600;
+}
+
+.numbers li {
+    font-style: oblique;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+.numbers li.currDay {
+    border: 3px solid #dc3545;
+    font-weight: 600;
+}
+
+.numbers li:hover {
+    transform: scale(1.2);
+}
+
+.numbers .otherMonth {
+    color: lightgray;
+}
+
+.numbers .travelDates {
+    border-bottom: 3px solid #0d6efd;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#result {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+p {
+    font-size: larger;
+}
