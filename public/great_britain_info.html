@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Info Great Britain</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-sm bg-white fixed-top">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="../index.html"><strong>Time To Travel</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reservation.html">Book a tour</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./road_map.html">Road Map</a>
+                    </li>
+
+                    <!-- Collapse dropdown item -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown">Countries</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./south_korea_info.html">South Korea</a></li>
+                            <li><a class="dropdown-item" href="./great_britain_info.html">Great Britain</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-sm p-5 mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-fluid" src="../assets/images/Great Britain/UK_Flag.png" alt="Flag of Great Britain">
+            </div>
+            <div class="col-sm-8 pt-5">
+                <blockquote class="blockquote text-center">
+                    <p class="display-1">Great Britain</p>
+                    <footer class="blockquote-footer">Your Trip Starts Here</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl p-5">
+        <div class="toast faid position-fixed top-50 end-0" id="infoPopUpToast" data-bs-autohide="false"
+            style="z-index: 1" id="showToastWithDelay">
+            <div class="toast-header">
+                <strong class="me-auto">Book a trip right now!</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                <p><a href="./reservation.html" class="btn btn-outline-primary btn-sm" role="button">Get Your Ticket</a>
+                </p>
+            </div>
+        </div>
+
+        <h3>Did You know?</h3>
+        <hr>
+        <p>
+            <b>Great Britain</b> is an island in the North Atlantic Ocean off the north-west coast of continental
+            Europe. With
+            an area of 209,331 km2 (80,823 sq mi), it is the largest of the British Isles, the largest European island
+            and the ninth-largest island in the world. It is dominated by a maritime climate with narrow
+            temperature differences between seasons. The island of Ireland, with an area 40 per cent that of Great
+            Britain, is to the west—these islands, along with over 1,000 smaller surrounding islands and named
+            substantial rocks, form the British Isles archipelago.
+        </p>
+
+        <p>
+            The term "Great Britain" can also refer to the political territory of England, Scotland and Wales, which
+            includes their offshore islands. This territory and Northern Ireland constitute the United Kingdom. The
+            single Kingdom of Great Britain resulted from the 1707 Acts of Union between the kingdoms of England (which
+            at the time incorporated Wales) and Scotland.
+        </p>
+    </div>
+
+    <div class="container-fluid bg-dark bg-gradient">
+        <div class="container-xxl text-bg-dark bg-gradient p-5">
+            <div class="embed-responsive embed-responsive-16by9">
+                <h3>Video</h3>
+                <hr>
+                <div>
+                    <video controls autoplay muted class="embed-responsive img-fluid">
+                        <source src="../assets/videos/Great Britain.mp4" type="video/mp4">
+                        <source src="https://youtu.be/EmQDLKA3xkg" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+        <div class="container-xxl p-5 text-bg-light">
+            <h4>Language</h4>
+
+            <p>
+                In the Late Bronze Age, Britain was part of a culture called the Atlantic Bronze Age, held together by
+                maritime trading, which also included Ireland, France, Spain and Portugal. In contrast to the generally
+                accepted view that Celtic originated in the context of the Hallstatt culture, since 2009, John T. Koch
+                and others have proposed that the origins of the Celtic languages are to be sought in Bronze Age Western
+                Europe, especially the Iberian Peninsula. Koch et al.'s proposal has failed to find wide
+                acceptance among experts on the Celtic languages.
+            </p>
+
+            <p class="container mt-5 p-5 text-center text-white bg-success bg-gradient rounded">
+                British English is spoken in the present day across the island, and developed from the Old English
+                brought
+                to the island by Anglo-Saxon settlers from the mid 5th century. Some 1.5 million people speak
+                Scots—which
+                was indigenous language of Scotland and has become closer to English over centuries. An
+                estimated
+                700,000 people speak Welsh, an official language in Wales. In parts of north west Scotland, Scottish
+                Gaelic remains widely spoken. There are various regional dialects of English, and numerous languages
+                spoken
+                by some immigrant populations.
+            </p>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark bg-gradient">
+        <div class="container-xxl p-5 text-bg-dark bg-gradient">
+            <h3>Gallery</h3>
+            <hr>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/images/Great Britain/GB1.jpeg" alt="Bridge on River"
+                            class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/images/Great Britain/GB2.jpeg" alt="Red bus and Big Ben"
+                            class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/images/Great Britain/GB3.jpeg" alt="Ancient houses and bridge""
+                            class=" d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/images/Great Britain/GB4.jpeg" alt="Ancient city" class="d-block img-fluid">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>
